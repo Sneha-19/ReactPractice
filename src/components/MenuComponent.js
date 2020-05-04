@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Media } from 'reactstrap';
+import { Card, CardImg, CardImgOverlay, CardText, CardBody, CardTitle } from 'reactstrap';
 
 class Menu extends Component {
 
@@ -7,63 +7,52 @@ class Menu extends Component {
         super(props);
 
         this.state = {
-            dishes: [
-                {
-                    id: 0,
-                    name: 'Icecream',
-                    image: 'assets/images/icecream.jpg',
-                    category: 'mains',
-                    label: 'Cold',
-                    price: '30',
-                    description: 'Tasty sweet Icecream'
-                },
-                {
-                    id: 1,
-                    name: 'Cake',
-                    image: 'assets/images/cake.jpg',
-                    category: 'mains',
-                    label: 'Hot',
-                    price: '150',
-                    description: 'Tasty sweet Cake'
-                },
-                {
-                    id: 2,
-                    name: 'PaniPuri',
-                    image: 'assets/images/panipuri.jpg',
-                    category: 'mains',
-                    label: '',
-                    price: '20',
-                    description: 'Tasty spicy Panipuri'
-                },
-                {
-                    id: 3,
-                    name: 'Pizza',
-                    image: 'assets/images/pizza.jpg',
-                    category: 'mains',
-                    label: 'Hot',
-                    price: '300',
-                    description: 'Tasty Pizza'
-                }
-            ]
+            selectedDish: null
+        }
+    }
+
+    onDishSelect(dish) {
+        this.setState({ selectedDish: dish });
+    }
+
+    renderDish(dish) {
+        if (dish != null) {
+            return (
+                <Card>
+                    <CardImg width="100%" src={dish.image} alt={dish.name} />
+                    <CardBody>
+                        <CardTitle>
+                            {dish.name}
+                        </CardTitle>
+                        <CardText>
+                            {dish.description}
+                        </CardText>
+                    </CardBody>
+                </Card>
+            );
+        }
+        else {
+            return (
+                <div></div>
+            );
         }
     }
 
     render() {
 
-        const menu = this.state.dishes.map((dish) => {
+        const menu = this.props.dishes.map((dish) => {
             return (
-                <div key={dish.id} className="col-12 mt-5">
-                    <Media tag="li">
-                        <Media left middle>
-                            <Media style={{height: '150px', width: '150px'}} object src={dish.image} alt={dish.name} />
-                        </Media>
-                        <Media body className="ml-5">
-                            <Media heading>
+                <div key={dish.id} className="col-12 col-mt-5 m-1">
+                    <Card onClick={() => this.onDishSelect(dish)}>
+
+                        <CardImg width="100%" src={dish.image} alt={dish.name} />
+
+                        <CardImgOverlay>
+                            <CardTitle>
                                 {dish.name}
-                            </Media>
-                            <p>{dish.description}</p>
-                        </Media>
-                    </Media>
+                            </CardTitle>
+                        </CardImgOverlay>
+                    </Card>
                 </div>
             );
         });
@@ -71,9 +60,10 @@ class Menu extends Component {
         return (
             <div className="container">
                 <div className="row">
-                    <Media list>
-                        {menu}
-                    </Media>
+                    {menu}
+                </div>
+                <div className = "row">
+                    {this.renderDish(this.state.selectedDish)}
                 </div>
             </div>
         );
