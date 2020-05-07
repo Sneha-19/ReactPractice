@@ -13,35 +13,35 @@ export const DISHES =
                     id: 0,
                     rating: 5,
                     comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                    authot: "John Lemon",
+                    author: "John Lemon",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 1,
                     rating: 5,
                     comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                    authot: "John Lemon",
+                    author: "John Lemon",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 2,
                     rating: 5,
                     comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                    authot: "John Lemon",
+                    author: "John Lemon",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 3,
                     rating: 5,
                     comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                    authot: "John Lemon",
+                    author: "John Lemon",
                     date: "2012-10-16T17:57:28.556094Z"
                 },
                 {
                     id: 4,
                     rating: 5,
                     comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                    authot: "John Lemon",
+                    author: "John Lemon",
                     date: "2012-10-16T17:57:28.556094Z"
                 }
             ]
@@ -60,35 +60,35 @@ export const DISHES =
                         id: 0,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 1,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 2,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 3,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 4,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     }
                 ]
@@ -107,35 +107,35 @@ export const DISHES =
                         id: 0,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 1,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 2,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 3,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 4,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     }
                 ]
@@ -154,35 +154,35 @@ export const DISHES =
                         id: 0,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 1,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 2,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 3,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     },
                     {
                         id: 4,
                         rating: 5,
                         comment: "Imagine all the eatables, bdsbu sdbudhd dvbdvuhdb b",
-                        authot: "John Lemon",
+                        author: "John Lemon",
                         date: "2012-10-16T17:57:28.556094Z"
                     }
                 ]
